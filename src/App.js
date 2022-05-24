@@ -3,6 +3,7 @@ import "./App.css";
 import Modal from "./Components/Modal";
 import form2 from "./Components/Forms/form2";
 import heroPic from "./Components/Forms/111.png";
+import "./Components/Forms/form.css";
 
 function App() {
   const [modalOpen, setModalOpen] = useState(false);
