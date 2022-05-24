@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Nunito", sans-serif;
+}
+
+.App .openModalBtn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background-color: cornflowerblue;
+  color: white;
+  cursor: pointer;
+} */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.form-container{
+  background-color: rgb(175, 230, 242);
+  width: 1080px;
+  height: 664px;
+}
+
+.imgBg-Circle{
+  background-color: #dce7ea;
+  border-radius: 999px;
+  width: 430px;
+  height: 430px;
+  margin-left: -140px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container{
+  position: absolute;
+  bottom: -35px;
+}
+
+.tags-items{
+  padding: 5px 12px;
+  background-color: #08546c;
+  border-radius: 999px;
+  color: white;
+  font-size: 12px;
+}
+
+.form-group{
+  width: 305px;
+}
+
+.privacy-conainer p{
+  font-size: 13px;
+  text-align: left;
+}
+
+.submitBtn{
+  padding: 13px 49px;
+  background-color: #FFA63A;
+  border-radius: 4px;
+}
+
+.secured-msg p{
+  padding: 5px 12px;
+  background-color: #08546c;
+  border-radius: 999px;
+  color: white;
+  font-size: 12px;
+}
