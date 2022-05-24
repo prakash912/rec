@@ -17,14 +17,16 @@
   
   .modalContainer {
     width: 1080px;
-    height: 550px;
+    height: auto;
     border-radius: 12px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     flex-direction: column;
     padding: 25px;
-    position: absolute;
+    position: relative;
+    overflow: hidden;
+    /* position: absolute; */
 /* width: 1080px;
 height: 664px;
 left: 0px;
