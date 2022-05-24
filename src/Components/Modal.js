@@ -26,14 +26,17 @@ function Modal({ setOpenModal }) {
             </div>
             <div className="col-7">
               <div className="form-content flex-col">
-                <h2 className="mb-5">Term Life Insurance</h2>
+                 <h2 className="term ">Term Life Insurance</h2>     {/*mb-5 */}
                 <div className="tags-container flex mb-2">
-                  <span className="tags-items me-3">
-                    No Medical Test Required
+                  <span className="tags-items me-3"><span className="p1"> No Medical Test Required</span>
+                   
                   </span>
-                  <span className="tags-items">Covid-19 Covered</span>
+                  <span className="tags-items2"><span className="p1"> Covid-19 Covered</span></span>
                 </div>
-                <div className="gender-container"></div>
+                <div class="tags-container flex mb-2">
+                <span className="gender-container me-3"><div className="redi"></div></span>
+                <span className="gender-container"></span>
+                </div>
                 <div className="form-group mb-2">
                   <label>Full Name</label>
                   <input

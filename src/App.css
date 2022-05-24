@@ -56,12 +56,80 @@ body {
 }
 
 .tags-items{
-  padding: 5px 12px;
+  /* padding: 5px 12px;
   background-color: #08546c;
   border-radius: 999px;
   color: white;
-  font-size: 12px;
+  font-size: 12px; */
+
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 12px;
+gap: 10px;
+
+/* position: absolute; */
+width: 168px;
+height: 24px;
+left: 556px;
+top: 119px;
+
+/* Background */
+
+background: #DCE7EA;
+border-radius: 12px;
 }
+.tags-items2{
+  /* padding: 5px 12px;
+  background-color: #08546c;
+  border-radius: 999px;
+  color: white;
+  font-size: 12px; */
+
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 5px 12px;
+gap: 10px;
+
+/* position: absolute; */
+width: 126px;
+height: 24px;
+left: 748px;
+top: 119px;
+
+/* Background */
+
+background: #DCE7EA;
+border-radius: 12px;
+}
+.p1{
+  /* width: 102px; */
+height: 14px;
+
+/* Web/caption */
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.4px;
+
+/* Primary */
+
+color: #08546C;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
 
 .form-group{
   width: 305px;
@@ -85,3 +153,84 @@ body {
   color: white;
   font-size: 12px;
 }
+.gender-container{
+  box-sizing: border-box;
+
+/* position: absolute; */
+width: 172px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+/* Contrast */
+
+border: 2px solid #FFA63A;
+border-radius: 8px;
+}
+.female-container{
+  box-sizing: border-box;
+
+/* position: absolute; */
+width: 172px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+background: rgba(255, 255, 255, 0.8);
+border: 1px solid #576E76;
+border-radius: 8px;
+}
+.term{
+  width: 296px;
+  height: 41px;
+  left: 591px;
+  top: 48px;
+
+  font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 41px;
+/* identical to box height */
+
+letter-spacing: 0.25px;
+
+  color: #022E3C;
+}
+label {
+  display: inline-block;
+  /* width: 72px; */
+  height: 19px;
+  left: 0px;
+  top: 0px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.15px;
+  color: #08546C;
+}
+
+.form-control-lg {
+  /* min-height: calc(1.5em + 1rem + 2px);
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem; */
+
+  box-sizing: border-box;
+
+/* position: absolute; */
+width: 378px;
+height: 48px;
+left: 0px;
+top: 0px;
+
+background: #FFFFFF;
+/* New */
+
+border: 1px solid #576E76;
+border-radius: 8px;
+}
+
